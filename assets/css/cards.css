@@ -9,7 +9,7 @@
 .card {
   /* display, flex-direction, flex-grow, flex-basis */
   display: flex;
-  width: 200px;
+  width: 180px;
   flex-direction: column;
   flex-grow: 1;
   flex-basis: 500px;
@@ -24,6 +24,7 @@
 .cardDescription {
   /* display, flex-direction, align-items, flex-grow */
   display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
   flex-grow: 1;
